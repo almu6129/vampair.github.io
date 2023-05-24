@@ -1,13 +1,23 @@
 header{
-    background: #999;
-    color: aliceblue;
+    text-align: left;
+    background: #e6b253;
+    color: rgb(0, 0, 0);
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 header h1{
     margin: 0;
     display: inline;
 }
+
+.logo{
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    
+}
+
 
 nav{
     display: inline;
@@ -21,6 +31,7 @@ nav ul{
 nav ul li{
     background: black;
     color: white;
+    border-radius: 8%;
     display: inline-block;
     list-style-type: none;
     padding: 5px 15px;
@@ -32,6 +43,19 @@ nav ul li a{
 
 body {
     margin: 0;
-    background:#999;
+    background:#ffffff;
     font-family: arial;
+}
+
+.row{
+    clear:both;
+}
+
+.col{
+    background: rgb(192, 141, 0);
+    float:left;
+    border-radius: 5px;
+    padding: .5%;
+    margin: .5%;
+    width: 31%;
 }
