@@ -34,7 +34,7 @@ nav ul li{
     border-radius: 8%;
     display: inline-block;
     list-style-type: none;
-    padding: 5px 15px;
+    padding: 1% 15px;
 }
 
 nav ul li a{
@@ -75,13 +75,32 @@ h2{
     clear: both;
     padding-left: 44%;
     padding-top: 3%;
-    padding-bottom: 1%;
 }
 
 .about_paragraph{
+    background: #e6b253;
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 2%;
 }
 
 footer{
     padding-left: 2%;
+}
+
+.Marines_and_drone{
+    width: 70%; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    padding-top: 1%;
+    padding-left: 13%;
+}
+
+.Page2_list{
+    padding-left: 13%;
+}
+
+.Page2_list_items{
+    padding-bottom: 1%;
+    padding-right: 20%;
 }
